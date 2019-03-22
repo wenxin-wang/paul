@@ -1,1 +1,12 @@
 #+TITLE: Paul is my simple assistent
+
+* Termux
+
+My usage:
+
+- Install ~Tasker~ and ~Orgzly~
+- Install ~Termux~ and ~Termux:Task~
+- Put ~paul~ under ~${HOME}~, and ~termux-tasker/org-imap-replace.sh~ under ~~/.termux/tasker~
+- Configure Tasker to run ~org-imap-replace.sh~ every time I close ~Orgzly~
+- Configure ~Orgzly~ to sync files to ~orgzly/~ in your sdcard
+- Write todos to an ~Orgzly~ notebook named ~Inbox~
