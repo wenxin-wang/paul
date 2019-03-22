@@ -19,11 +19,14 @@ elif [ -f ~/.config/paul/config.sh ]; then
     . ~/.config/paul/config.sh
 fi
 
+# FROM: $sender
+# TO: $recvname+keyword@$recvdomain
+declare recvname recvdomain sender
 declare -a KEYWORDS
 MSMTP_OPTS=${MSMTP_OPTS:-""}
 TMP=${TMP:-/tmp}
 
-file=$(readlink -e $file)
+file=$(realpath $file)
 
 tmpdir=$TMP/paul-org-imap-$$
 mkdir -p $tmpdir
