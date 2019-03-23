@@ -5,7 +5,7 @@
 My usage:
 
 - Install ~Tasker~ and ~Orgzly~
-- Install ~Termux~ and ~Termux:Task~
+- Install ~Termux~, ~Termux:API~ and ~Termux:Task~
 - Put ~paul~ under ~${HOME}~, and ~termux-tasker/org-imap-replace.sh~ under ~~/.termux/tasker~
 - Configure Tasker to run ~org-imap-replace.sh~ every time I close ~Orgzly~
 - Configure ~Orgzly~ to sync files to ~orgzly/~ in your sdcard
